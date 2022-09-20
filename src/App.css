@@ -304,4 +304,66 @@ a {
   font-weight: 500;
   margin: 20px 0 10px;
 }
+
+.right-sidebar .sidebar-ad {
+  background: #fff;
+  padding: 15px 25px;
+  text-align: center;
+  margin: 12px 0;
+}
+
+.right-sidebar .sidebar-ad img {
+  width: 60px;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+.right-sidebar .sidebar-ad span {
+  float: right;
+  font-weight: 500;
+}
+
+.right-sidebar .sidebar-ad p {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.right-sidebar .sidebar-ad b {
+  display: block;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.right-sidebar .sidebar-ad .ad-link {
+  display: inline-block;
+  border: 1px solid #045be6;
+  color: #045be6;
+  border-radius: 30px;
+  padding: 5px 15px;
+  font-weight: 500;
+  margin: 20px auto 10px;
+}
+.right-sidebar .sidebar-useful-links {
+  padding: 15px 25px;
+  text-align: center;
+}
+
+.right-sidebar .sidebar-useful-links a {
+  font-size: 14px;
+  margin: 4px 5px;
+}
+
+.right-sidebar .copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.right-sidebar .copyright img {
+  width: 16px;
+  margin-right: 4px;
+}
 /* Right Sidebar end  */
