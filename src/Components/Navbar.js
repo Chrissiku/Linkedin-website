@@ -4,7 +4,7 @@ import home from "../images/home.png";
 import avatar from "../images/avatar.jpg";
 import search from "../images/search.png";
 
-function Navbar() {
+const Navbar = () => {
   return (
     <>
       <nav className="navbar">
@@ -65,6 +65,6 @@ function Navbar() {
       </nav>
     </>
   );
-}
+};
 
 export default Navbar;
