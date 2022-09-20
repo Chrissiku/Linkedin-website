@@ -1,7 +1,12 @@
 import "./App.css";
+import Navbar from "./Components/Navbar";
 
 function App() {
-  return <h1>Linkedin social media webiste</h1>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
 export default App;
