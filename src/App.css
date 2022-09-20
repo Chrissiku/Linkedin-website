@@ -258,8 +258,64 @@ a {
 /* Middle content start  */
 .middle-content {
   flex-basis: 48%;
-  align-self: flex-start;
-  border: 1px solid red;
+}
+
+.middle-content .create-post {
+  background: #fff;
+}
+
+.middle-content .create-post .create-post-input {
+  padding: 20px 5px 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.middle-content .create-post .create-post-input img {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.middle-content .create-post .create-post-input textarea {
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  margin-top: 8px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+::placeholder {
+  font-weight: 500;
+}
+
+.middle-content .create-post .create-post-links ul {
+  display: flex;
+  align-items: flex-start;
+}
+
+.middle-content .create-post .create-post-links ul li {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 13px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.middle-content .create-post .create-post-links ul li:last-child {
+  background-color: #045be6;
+  color: #fff;
+  border-top: 0;
+  border-right: 0;
+}
+
+.middle-content .create-post .create-post-links ul li img {
+  width: 15px;
+  margin-right: 5px;
 }
 /* Middle content end */
 
