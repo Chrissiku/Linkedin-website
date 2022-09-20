@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import home from "../images/home.png";
 import avatar from "../images/avatar.jpg";
+import search from "../images/search.png";
 
 function Navbar() {
   return (
@@ -11,12 +12,17 @@ function Navbar() {
           <Link to="/" className="logo">
             <img src={logo} alt="Linkedin logo" />
           </Link>
+
+          <div className="search-box">
+            <img src={search} alt="Search here" />
+            <input type="text" placeholder="Search" />
+          </div>
         </div>
         <div className="navbar-center">
           <ul>
             <li>
               {" "}
-              <Link to="/">
+              <Link to="/" className="active">
                 <img src={home} alt="Home" />
                 <span>Home</span>
               </Link>
@@ -52,7 +58,9 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-right">
-          <img src={avatar} alt="Avatar" />
+          <div className="online-status">
+            <img src={avatar} alt="Avatar" className="profile-img" />
+          </div>
         </div>
       </nav>
     </>
