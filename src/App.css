@@ -267,6 +267,41 @@ a {
 .right-sidebar {
   flex-basis: 25%;
   align-self: flex-start;
-  border: 1px solid red;
+}
+
+.right-sidebar .sidebar-news {
+  background: #fff;
+  padding: 10px 25px;
+}
+
+.right-sidebar .sidebar-news .info-icon {
+  width: 15px;
+  float: right;
+  margin-top: 15px;
+}
+
+.right-sidebar .sidebar-news h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 10px 0 30px;
+}
+
+.right-sidebar .sidebar-news a {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.right-sidebar .sidebar-news span {
+  font-size: 13px;
+}
+
+.right-sidebar .sidebar-news .read-more {
+  color: #045be6;
+  font-weight: 500;
+  margin: 20px 0 10px;
 }
 /* Right Sidebar end  */
