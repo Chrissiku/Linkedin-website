@@ -317,6 +317,35 @@ a {
   width: 15px;
   margin-right: 5px;
 }
+
+.middle-content .sort-by {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.middle-content .sort-by hr {
+  flex: 1;
+  border: 0;
+  height: 1px;
+  background: #ccc;
+}
+
+.middle-content .sort-by p {
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.middle-content .sort-by p span {
+  color: #045be6;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.middle-content .sort-by p span img {
+  width: 12px;
+  margin-left: 3px;
+}
 /* Middle content end */
 
 /* Right Sidebar start */

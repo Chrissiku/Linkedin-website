@@ -2,6 +2,7 @@ import avatar from "../images/avatar.jpg";
 import photo from "../images/photo.png";
 import video from "../images/video.png";
 import event from "../images/event.png";
+import arrow_down from "../images/down-arrow.png";
 const MiddleContent = () => {
   return (
     <>
@@ -19,6 +20,11 @@ const MiddleContent = () => {
               <li>Post</li>
             </ul>
           </div>
+        </div>
+
+        <div className="sort-by">
+          <hr/>
+          <p>Sort by : <span>top<img src={arrow_down} alt="Drop down arrow"/></span></p>
         </div>
       </div>
     </>
